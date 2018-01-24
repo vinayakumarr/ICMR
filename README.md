@@ -11,3 +11,11 @@ Single Sensor Techniques for Sleep Apnea Diagnosis using Deep Learning
 Anomaly detection in Phonocardiogram employing Deep learning
 
 Deep models for Phonocardiography (PCG) classification
+
+Atrial Fibrillation: Data set is from https://physionet.org/physiobank/database/afdb/
+
+PCG-physionet: Data set is from https://physionet.org/challenge/2016/
+
+Sleep Apnea: Data set is from https://www.physionet.org/physiobank/database/apnea-ecg/
+
+heartsound - PCG: Data set is from http://www.peterjbentley.com/heartchallenge/
