@@ -23,7 +23,7 @@ testdata = pd.read_csv('data/test.csv', header=None)
 
 
 C = testdata.iloc[:,0]
-T = testdata.iloc[:,0:31]
+T = testdata.iloc[:,1:31]
 
 
 scaler = Normalizer().fit(T)
