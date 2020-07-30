@@ -21,10 +21,10 @@ traindata = pd.read_csv('classical/data/train.csv', header=None)
 testdata = pd.read_csv('data/valid.csv', header=None)
 
 
-X = traindata.iloc[:,0:61]
+X = traindata.iloc[:,1:61]
 Y = traindata.iloc[:,0]
 C = testdata.iloc[:,0]
-T = testdata.iloc[:,0:61]
+T = testdata.iloc[:,1:61]
 
 scaler = Normalizer().fit(X)
 trainX = scaler.transform(X)
